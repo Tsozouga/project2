@@ -68,6 +68,31 @@ i:hover{
     
     
 }
+
+
+@keyframes -secss{
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+h1, a, h2, p,button, i, .lala{
+    animation: -secss 2s ease-out forwards;
+}
+@keyframes burs {
+    from {
+        opacity: 0;
+        transform: translateY(50px); 
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 .header3{
  
     width: 100%;
